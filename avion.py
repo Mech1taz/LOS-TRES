@@ -1,5 +1,6 @@
 from os import system
 system("cls")
+import airplane
 while True:
     print("""
     ¡Bienvenidos a Lemon airlines!
@@ -27,4 +28,4 @@ while True:
             sys.exit()
         case other:
             print("¡Error! Opcion no valida!")
-            
+            airplane.pause()
